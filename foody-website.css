@@ -1,0 +1,562 @@
+/* lorenzo smith */
+
+/* whole page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*apply to all html */
+html {
+    color: #555;
+    font-family: 'lato', sans-serif;
+
+    font-weight: 300;
+    font-size: 20px;
+
+    text-rendering: optimizeLegibility;
+
+}
+
+/* header */
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(./Omnifood-Contents/img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+
+.logo {
+    
+    height: 100px;
+    width: 100px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+li a {
+    color: white;
+    padding: 5px 0;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+
+li a:hover {
+    border-bottom: 5px solid goldenrod;
+}
+
+
+/* header box text */
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+.hero-text {
+    font-weight: 300;
+    font-size: 500%;
+
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+/* header box button */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+
+
+}
+
+
+
+.btn-full {
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    color: white;
+    
+}
+
+.btn-full:hover, .btn-full:active {
+    background-color: rgb(121, 91, 15);
+}
+
+.btn-ghost {
+    border: 1px solid;
+    color: goldenrod;
+    transition:color 0.2s;
+}
+
+
+.btn-ghost:hover, .btn-ghost:active {
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    color:white
+}
+
+/* end of header */
+
+
+
+#cities {font-family: Arial, Helvetica, sans-serif;}
+
+#testimonial {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#price-row {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+
+
+
+
+
+/* start of middle section */
+div {
+    display: block;
+}
+
+/* middle top text */
+h2 {
+    display: block;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: 180%;
+
+    margin-top: 10px;
+
+    border-bottom: 5px solid gold;
+    
+}
+
+
+h2::after {display: block; height: 5px; width: 200px; background-color: orange; content: " "; margin: auto; margin-top: 30px;}
+
+
+.check{ color: orangered; font-size: 50px; }
+
+
+
+
+
+/* middle top text */
+.long-copy {
+    line-height: 110%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    font-weight: 900;
+
+}
+
+.row-middle {
+    display: table;
+
+}
+/* section end */
+
+
+/*  start middle cards column */
+
+.col:first-child {margin-left: 0%;}
+
+.span-1-of-4 {width: 23.8%;}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    justify-content: stretch;
+}
+
+.box {padding: 8px;}
+/* cards text */
+
+
+.cards,  h3 {
+    margin-left: 10%;
+   
+}
+
+.cards, p {font-size: x-large;}
+
+.big-icon {
+    margin-left: 10%;
+    font-size: 350%;
+    color: orangered;
+}
+
+
+.box p {
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+    padding: 20px;
+    -webkit-text-fill-color: rgb(160, 47, 3);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.box-plan button{font-family: Arial, Helvetica, sans-serif; font-weight: 900; }
+
+.price-btn:hover, .price-btn:active{background-color: #555;}
+
+
+.btn-2:hover, .btn-2:active{background-color: orange;}
+
+
+.btn-2 {background-color: rgba(226, 7, 7, 0.942);}
+
+
+
+.price-btn {
+    border-radius: 40px;
+    font-size: x-large;
+    margin-left: 50px;
+    background-color: orange;
+    color: whitesmoke;
+    height: 100px;
+}
+
+.btn-2 {background-color: rgba(238, 238, 238, 0);}
+
+
+
+
+/* section end */
+
+
+
+/* section start meal photo showcase */
+
+section{
+    display: block;
+    padding: 80px;
+}
+
+
+.section-meals {
+    padding: 0;
+}
+
+
+
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+
+}
+
+
+
+
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+
+}
+
+.meal-photo, img:hover {opacity: 1; transform: scale(1.00); transition-timing-function: ease-in;}
+
+figure {display: block;}
+
+
+/* section how it works */
+
+.span-1-of-2{width: 49.2%;}
+
+
+
+.app-screen {
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+
+.works-step {margin-bottom: 50px;
+    width: 75%; 
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-steps {}
+
+
+/* section in these cities */
+
+
+.section-cities {display: block;}
+
+.section-cities img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+
+}
+
+.city-placement { 
+    width: 23.8%;
+    float: left;
+}
+
+
+.city-placement, img {
+    
+    margin-bottom: 15px;
+    width: 25%;
+}
+    
+
+
+
+
+
+
+/* section testimonial */
+
+.section-testimonial {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Omnifood-Contents/img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    margin-top: 500px;
+    height: 800px;
+    display: block;
+    justify-items: center;
+}
+
+.quotes {
+    /* justify-content: center;  */
+    padding-left: 10%;
+    width: 100%;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.col-q {
+    float: left;
+    width: 28%;
+    padding-left: 5%;
+    
+    
+}
+
+.col-q, cite {float: left;}
+.col-q img {border-radius: 30px;}
+
+
+
+
+
+
+
+/* section start PRICING */
+
+.pricing-row {}
+
+
+.box-plan {
+    float: left;
+    margin: 10px;
+    width: 30%;
+
+
+
+}
+
+
+.top-pricing {
+    background-color: rgba(128, 132, 136, 0.114);
+    height: 170px;
+
+
+}
+
+.price-list {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.155);
+}
+
+.price-list li {padding-top: 20px;}
+
+
+
+
+
+/* survey customer response */
+
+
+
+
+
+
+
+
+
+.section-row {margin-top: 20%; margin-bottom: 5%;}
+
+
+
+
+
+.sb-1 {
+    width: 600px;
+    text-align: center;
+
+}
+
+.sb-1 label { float: left;}
+
+.sb-1 input{
+    width: 35%;
+    height: 50px;
+    margin: 5px;
+    margin-left: 80%;
+    
+
+} 
+
+
+
+
+.ms-box {
+    height: 200px;
+    
+
+}
+
+
+
+.submit {
+    background-color: orange;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+
+
+}
+
+
+
+
+
+
+
+/* foooter */
+
+#footer-container {background-color: rgba(134, 120, 120, 0.26); opacity: 80%; margin: 20px;}
+
+
+
+
+
+
+
+
+
+.footer { 
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+
+}
+
+.footer ul li {margin-left: 50px; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.footer-icons { 
+    float: right;
+    color: white;
+    
+}
+
+
+.social-media {font-size: 30px;}
+
+.footer-text {
+    text-align: center; 
+    
+
+}
+
+.footer-text p{font-size: small; font-weight: 300; font-family: Arial, Helvetica, sans-serif;}
+
+
